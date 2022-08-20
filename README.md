@@ -3,6 +3,7 @@
 ## [Examen de DE INSIGNIA DIGITAL DE TALENTO DIGITAL](https://github.com/Ceristh)
 
 ## Instrucciones:
+algoritmo me dio error a ultima hora.
 
 ~~~
 script DBeaver
