@@ -5,6 +5,7 @@ import PressToContinuePrompt from "inquirer-press-to-continue"
 
 inquirer.registerPrompt("press-to-continue", PressToContinuePrompt)
 
+
 class DemoConsola {
    #students = []
    constructor() {
@@ -59,7 +60,6 @@ class DemoConsola {
          ])
          .then((answer) => {
             const [day, month, year] = answer.date.split("/")
-            // create a new student!
             this.createStudent(new Date(`${year}-${month}-${day}`))
          })
          .catch((error) => {
@@ -130,14 +130,14 @@ class Estudiante {
       let _address = address
       let _birthDate = birthDate
 
-      /* GET */
       this.getId = () => _id
       this.getRut = () => _rut
       this.getLastNameDad = () => _lastNameDad
       this.getLastNameMom = () => _lastNameMom
       this.getAddress = () => _address
       this.getBirthDate = () => _birthDate
-      /* SET */
+
+
       this.setId = (id) => (_id = id)
       this.setRut = (rut) => (_rut = rut)
       this.setLastNameDad = (lastNameDad) => (_lastNameDad = lastNameDad)
@@ -145,6 +145,7 @@ class Estudiante {
       this.setAddress = (address) => (_address = address)
       this.setBirthDate = (birthDate) => (_birthDate = birthDate)
    }
+
 
    /* Calcula la edad */
    calculateAge() {

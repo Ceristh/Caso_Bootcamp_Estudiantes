@@ -1,1 +1,0 @@
-a ultima hora me dio error, ningun problema el algoritmo, fue eliminar node_modulos y empezo a dar error
