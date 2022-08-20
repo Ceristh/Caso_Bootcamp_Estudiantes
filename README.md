@@ -2,18 +2,33 @@
 
 ## [Examen de DE INSIGNIA DIGITAL DE TALENTO DIGITAL](https://github.com/Ceristh)
 
-+ Leer el enunciado para entender la lógica del proceso
-+ Analizar el Modelo de Datos
-+ Migrar Script SQL a Postgresql
-+ Crear estructura base del proyecto
-> Iniciar proyecto NPM
-> Instalar dependencias (Express, Nodemon, handlebars, entre otras)
-> Crear parciales con Header y Footer
-> Implementar Bootstrap (Recomendado por CDN)
-> Crear estructura assets (img, js, css) y publicarla con un middleware
-> Crear archivo de conexión y consultas a la BD
-> Crear rutas para llamar los métodos que conectan a la BD y devolver datos al Front
-> Crear cada uno de los layouts necesarios para hacer peticiones ajax o axios al Back
+## Instrucciones:
+
+~~~
+script DBeaver
+ejecutar database: carpeta api/database
+script consultas.sql
+--para tablas
+script db_insert.sql
+--insert info
+
+---
+---
+cd registro
+npm i
+cd ..
+cd api
+npm i
+cd ..
+cd algoritmo
+npm i
+
+cd registro
+npm run dev
+--- para nodemon
+npm start
+~~~
+
 
 ### Recordatorio
 ~~~
@@ -26,7 +41,19 @@ const pool = new Pool({
 });
 ~~~
 
-## Instrucciones:
+
++ Leer el enunciado para entender la lógica del proceso
++ Analizar el Modelo de Datos
++ Migrar Script SQL a Postgresql
++ Crear estructura base del proyecto
+> Iniciar proyecto NPM
+> Instalar dependencias (Express, Nodemon, handlebars, entre otras)
+> Crear parciales con Header y Footer
+> Implementar Bootstrap (Recomendado por CDN)
+> Crear estructura assets (img, js, css) y publicarla con un middleware
+> Crear archivo de conexión y consultas a la BD
+> Crear rutas para llamar los métodos que conectan a la BD y devolver datos al Front
+> Crear cada uno de los layouts necesarios para hacer peticiones ajax o axios al Back
 
 ## ANEXO EXAMEN DE CERTIFICACIÓN
 
