@@ -41,6 +41,10 @@ const pool = new Pool({
 });
 ~~~
 
+## Links para algoritmo
+[https://www.npmjs.com/package/figlet](https://www.npmjs.com/package/figlet)
+[https://www.npmjs.com/package/inquirer-press-to-continue](https://www.npmjs.com/package/inquirer-press-to-continue)
+[https://www.npmjs.com/package/chalk](https://www.npmjs.com/package/chalk)
 
 + Leer el enunciado para entender la lógica del proceso
 + Analizar el Modelo de Datos
